@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    
 }
 
 body {
@@ -8,6 +9,8 @@ body {
 }
 a {
     text-decoration: none;
+    
+    
 }
 
 .main {
@@ -20,4 +23,26 @@ a {
 .header{
     display:flex;
     justify-content:center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:50px;
+    color:#deb887 ;
+    
+}
+.navbar{
+    display:flex;
+    justify-content:space-around; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #d8af70 ;
+    padding: 10px ;
+    border: 10px solid #fa8072;
+}
+.main{
+    background-image: url("https://pixel.nymag.com/imgs/fashion/daily/2018/03/12/09-jhene-aiko.w1200.h630.jpg")
+    
+}
+.rightPane{
+     background-image: url(http://theboombox.com/files/2015/01/jheneaiko.jpg);
+    width: 300px;
+    height: 200px;
+    background-size: cover;   
 }
